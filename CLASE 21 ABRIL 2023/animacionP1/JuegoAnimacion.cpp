@@ -19,3 +19,14 @@ void ocultar_cursor(void){
 	cci.bVisible = FALSE;
 	SetConsoleCursorInfo(hCon, &cci);	
 }
+	
+void pintarFigura1(int x, int y){
+	
+ gotoxy(x,y+0);	cout<<"  @  ";
+ gotoxy(x,y+1);	cout<<"@@@@@";
+ gotoxy(x,y+2);	cout<<"  @  ";
+ gotoxy(x,y+3);	cout<<"  @  ";
+	
+}
+	
+	
