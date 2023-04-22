@@ -1,0 +1,4 @@
+#ifndef JUEGOANIMACION_H
+#define JUEGOANIMACION_H
+
+#endif
